@@ -8,7 +8,7 @@ function Contact() {
         </div>
         <div className="row">
             <div className="col-sm-6 mx-auto">
-                <form name="contactame" method="post" data-netlify="true">
+                <form name="contact" method="POST" data-netlify="true">
                     <div className="mb-2">
                       <label for="exampleInputEmail1" className="form-label">Tu Email</label>
                       <input type="email" className="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp"/>
