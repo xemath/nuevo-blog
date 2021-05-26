@@ -1,13 +1,35 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    background-color: rgba(248,249,250,255);    
+}
+.fondo{
+    background:url('fondo.png');
+    height: 89vh;
+}
+.pruebas{
+    background-color: red;
+}
+.bebas{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.titulo{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.fondo-about{
+    background-color: rgba(248,249,250,255);
+    height: 89vh;
+}
+
+.card-width{
+    width: 300px;
+}
+
+.borde{
+    border: 1px solid black;
+}
+.super-bordo{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
