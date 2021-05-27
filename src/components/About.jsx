@@ -10,21 +10,23 @@ function About() {
                     <div className="col-md-5 mx-auto">
                         <div className="card">
                             <div className="img1">
-                                <img src="/images/fondo.png" alt=""/>
+                                <img src="/images/fondito.jpg" alt=""/>
                             </div>
                             <div className="img2">
-                                <img src="/images/fondo.png" alt="" />
+                                <img src="/images/me.jpg" alt="" />
                             </div>
                             <div className="main-text">
-                                <h2>Carlos Castro</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eligendi quo laboriosam itaque consectetur ratione nihil corporis unde non. Provident.</p>
+                                <h2 className="text-center">Carlos Castro</h2>
+                                <p className="text-left">Desarrollador Web Junior.
+                                    Amante de las motos, el anime, el gym, el cine independiente y por supuesto la programación.</p>
+                                <p>Tecnologías que utilizo: Javascript, HTML, CSS (flexbox y grid), React, Bootstrap 5, Node js, Express js, MySQL, MongoDB</p>
 
                             </div>
                             <div className="socials">
                                 
                                 <SocialIcon url="https://github.com/xemath/" className="" target="_blank" fgColor="#fff" style={{ height: 40, width:40, marginLeft:20, marginBottom:20, marginTop:5}}/>
                                 <SocialIcon url="https://facebook.com/carlos9877" className="" target="_blank" fgColor="#fff" style={{ height: 40, width:40, marginLeft:20, marginBottom:20, marginTop:5}}/>
-                                <SocialIcon url="https://instagram.com/castro.77.c" className="" target="_blank" fgColor="#fff" style={{ height: 40, width:40, marginLeft:20, marginBottom:20, marginTop:5}}/>
+                                <SocialIcon url="https://instagram.com/carlos.77.c" className="" target="_blank" fgColor="#fff" style={{ height: 40, width:40, marginLeft:20, marginBottom:20, marginTop:5}}/>
                                 
                             </div>
                         </div>
